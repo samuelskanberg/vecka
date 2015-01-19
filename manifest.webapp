@@ -1,12 +1,12 @@
 {
   "name": "Vecka",
   "description": "Vilken vecka är det?",
-  "launch_path": "/index.html",
+  "launch_path": "/vecka/index.html",
   "icons": {
-    "16": "/icons/icon16x16.png",
-    "48": "/icons/icon48x48.png",
-    "60": "/icons/icon60x60.png",
-    "128": "/icons/icon128x128.png"
+    "16": "/vecka/icons/icon16x16.png",
+    "48": "/vecka/icons/icon48x48.png",
+    "60": "/vecka/icons/icon60x60.png",
+    "128": "/vecka/icons/icon128x128.png"
   },
   "developer": {
     "name": "Samuel Skånberg",
