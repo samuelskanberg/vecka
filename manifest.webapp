@@ -8,6 +8,9 @@
     "60": "/icons/icon60x60.png",
     "128": "/icons/icon128x128.png"
   },
-  "type": "privileged",
-  "permissions": {}
+  "developer": {
+    "name": "Samuel Skånberg",
+    "url": "http://samuelskanberg.github.io"
+  },
+  "type": "web"
 }
