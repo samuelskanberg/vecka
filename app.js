@@ -4,7 +4,13 @@ window.addEventListener("load", function() {
     // Install app
     if (navigator.mozApps) {
         var manifestURL = location.href.substring(0, location.href.lastIndexOf("/")) + "/manifest.webapp";
-        var installApp = navigator.mozApps.install(manifestURL);
+        var req = navigator.mozApps.installPackage(manifestURL);
+        req.onsuccess = function() {
+            console.log(this.result.origin);
+        };
+        req.onerror = function() {
+            console.log(this.error.name);
+        };
     }
 
     // Get week number and set it
