@@ -11,7 +11,5 @@
   "developer": {
     "name": "Samuel Skånberg",
     "url": "http://samuelskanberg.github.io/vecka"
-  },
-  "type": "web",
-   "installs_allowed_from": ["*"],
+  }
 }

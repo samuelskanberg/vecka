@@ -4,7 +4,7 @@ window.addEventListener("load", function() {
     // Install app
     if (navigator.mozApps) {
         var manifestURL = location.href.substring(0, location.href.lastIndexOf("/")) + "/manifest.webapp";
-        var req = navigator.mozApps.installPackage(manifestURL);
+        var req = navigator.mozApps.install(manifestURL);
         req.onsuccess = function() {
             console.log(this.result.origin);
         };
