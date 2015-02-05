@@ -24,7 +24,7 @@ window.addEventListener("load", function() {
     };
 
     // Get week number and set it
-    var timeUrl = "http://api.dryg.net/dagar/v1/";
+    var timeUrl = "https://api.dryg.net/dagar/v1/";
     $.getJSON(timeUrl, function(data) {
         console.log("Time is: "+data);
         $("#weeknumber").html(data.vecka);
